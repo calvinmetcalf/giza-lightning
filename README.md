@@ -2,7 +2,7 @@ Presentation I'm giving at js.geo with a special sneak peak at the esri geodev m
 
 It's my version of [medium](https://github.com/calvinmetcalf/medium) for use in lightning talks.
 
-Color scheame stolen from lyzi diamond.
+Color schema stolen from lyzi diamond.
 
 To Use
 ===
