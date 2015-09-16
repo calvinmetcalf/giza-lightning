@@ -1,14 +1,14 @@
 [//]: # (title page)
-Writing a WMS/WMTS server at *AppGeo* by Calvin W. Metcalf B.S.
+Writing a *WMS/WMTS* server at *AppGeo* by *Calvin W. Metcalf B.S.*
 
 [//]: # (slide 1)
-Goal: xyz tile pyramid, viewable in *ArcMap*.
+Goal: *XYZ* tile pyramid, viewable in *ArcMap*.
 
 [//]: # (slide 2)
-Via WMTS
+Via *WMTS*
 
 [//]: # (slide 3)
-but need WMS too
+but need *WMS* too
 
 [//]: # (slide 4)
 WMTS *seems* slow
@@ -17,37 +17,37 @@ WMTS *seems* slow
 WMS *is* slow
 
 [//]: # (slide 6)
-spec is extremely detailed about certain things (error messages)
+spec is *extremely* detailed about certain things (error messages)
 
 [//]: # (slide 7)
-and strangely silent on others (non rectangular caches, mixed file types)
+and *strangely silent* on others (non rectangular caches, mixed file types)
 
 [//]: # (slide 8)
-all implementations are really weird
+*all* implementations are really weird
 
 [//]: # (slide 9)
-versions of ArcMap won't zoom past 19 in WMTS
+versions of *ArcMap* won't zoom past 19 in WMTS
 
 [//]: # (slide 10)
-certain versions of QGIS will download Gigabytes of tiles if only the default bounding box is set
+certain versions of *QGIS* will download *Gigabytes* of tiles if only the default bounding box is set
 
 [//]: # (slide 11)
-ArcMap shifts WMTS by 15 feet to the left
+ArcMap shifts WMTS by *15 feet* to the left
 
 [//]: # (slide 12)
-Auth: on the plus side ArcGIS doesn't save them in plain text like QGIS
+Auth: on the plus side *ArcGIS* doesn't save them in plain text like *QGIS*
 
 [//]: # (slide 13)
-Transparent photograph issue
+Transparent photograph issue (issue with *OGC* spec)
 
 [//]: # (slide 14)
-Many clients have issues with on the fly projections (you have one job GIS software)
+Many clients have issues with *on the fly projections* (you have one job *GIS* software)
 
 [//]: # (slide 15)
-Succeeded in building a library for this in node.js
+Succeeded in building a library for this in *node.js*
 
 [//]: # (after)
-- me: Calvin Metcalf
-- my company: AppGeo
-- this presentation: https://calvinmetcalf.github.io/wms-lightning
-- the library: https://github.com/calvinmetcalf/WMS
+- me: *Calvin Metcalf*
+- my *company: AppGeo*
+- this presentation: *https://calvinmetcalf.github.io/wms-lightning*
+- the library: *https://github.com/calvinmetcalf/WMS*
