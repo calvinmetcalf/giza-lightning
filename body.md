@@ -50,4 +50,4 @@ Succeeded in building a library for this in *node.js*
 - me: *Calvin Metcalf*
 - my *company: AppGeo*
 - this presentation: *https://calvinmetcalf.github.io/wms-lightning*
-- the library: *https://github.com/calvinmetcalf/WMS*
+- the library: *https://github.com/AppGeo/WMS*
