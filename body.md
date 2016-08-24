@@ -1,53 +1,50 @@
 [//]: # (title page)
-Writing a *WMS/WMTS* server at *AppGeo* by *Calvin W. Metcalf B.S.*
+Tech *Details* by *Calvin*
 
 [//]: # (slide 1)
-Goal: *XYZ* tile pyramid, viewable in *ArcMap*.
+Node.js
 
 [//]: # (slide 2)
-Via *WMTS*
+express + middleware
 
 [//]: # (slide 3)
-but need *WMS* too
+browserify + less.js
 
 [//]: # (slide 4)
-WMTS *seems* slow
+WMS/WMTS middleware
 
 [//]: # (slide 5)
-WMS *is* slow
+uses *abaculus* and *mapnik* to stitch and convert images
 
 [//]: # (slide 6)
-spec is *extremely* detailed about certain things (error messages)
+formally used graphics magic
 
 [//]: # (slide 7)
-and *strangely silent* on others (non rectangular caches, mixed file types)
+*big query* for stats
 
 [//]: # (slide 8)
-*all* implementations are really weird
+predates google libs for node
 
 [//]: # (slide 9)
-versions of *ArcMap* won't zoom past 19 in WMTS
+admin/stats is majority of app
 
 [//]: # (slide 10)
-certain versions of *QGIS* will download *Gigabytes* of tiles if only the default bounding box is set
+first was handlebars and bootstrap
 
 [//]: # (slide 11)
-ArcMap shifts WMTS by *15 feet* to the left
+handlebars switched with react/redux
 
 [//]: # (slide 12)
-Auth: on the plus side *ArcGIS* doesn't save them in plain text like *QGIS*
+deploy using *GKE*
 
 [//]: # (slide 13)
-Transparent photograph issue (issue with *OGC* spec)
+postgres and redis for backend
 
 [//]: # (slide 14)
-Many clients have issues with *on the fly projections* (you have one job *GIS* software)
+heatmaps from big-query
 
 [//]: # (slide 15)
-Succeeded in building a library for this in *node.js*
+z(ed)- curve
 
 [//]: # (after)
-- me: *Calvin Metcalf*
-- my *company: AppGeo*
-- this presentation: *https://calvinmetcalf.github.io/wms-lightning*
-- the library: *https://github.com/AppGeo/WMS*
+back to michael
